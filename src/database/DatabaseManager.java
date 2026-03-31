@@ -9,7 +9,7 @@ public class DatabaseManager {
     // UPDATE THESE DETAILS AFTER INSTALLING POSTGRESQL
     private static final String HOST = "localhost";
     private static final String PORT = "5432";
-    private static final String DATABASE = "game_collection";
+    private static final String DATABASE = "Game_Collection_Manager";
     private static final String USER = "postgres";
     private static final String PASSWORD = "Admin32#"; // Replace with your actual password
 
