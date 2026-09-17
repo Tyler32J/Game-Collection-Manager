@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* This tells Tailwind to turn on "dark:" styles whenever a
+   parent element (usually <html>) has the class "dark" on it,
+   instead of only reacting to the OS light/dark setting. */
+@custom-variant dark (&:where(.dark, .dark *));
